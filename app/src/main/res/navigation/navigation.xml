@@ -19,4 +19,9 @@
         android:name="nl.odido.odidocasino.login"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/wachtwoordFragment"
+        android:name="nl.odido.odidocasino.WachtwoordFragment"
+        android:label="fragment_wachtwoordvergeten"
+        tools:layout="@layout/fragment_spellen" />
 </navigation>
