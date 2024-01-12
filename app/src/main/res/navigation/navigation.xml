@@ -18,10 +18,14 @@
         android:id="@+id/login"
         android:name="nl.odido.odidocasino.login"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/signup" />
+    </fragment>
     <fragment
-        android:id="@+id/wachtwoordFragment"
-        android:name="nl.odido.odidocasino.WachtwoordFragment"
-        android:label="fragment_wachtwoordvergeten"
-        tools:layout="@layout/fragment_spellen" />
+        android:id="@+id/signup"
+        android:name="nl.odido.odidocasino.signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" />
 </navigation>
