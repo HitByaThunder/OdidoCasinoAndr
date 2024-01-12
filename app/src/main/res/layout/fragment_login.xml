@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#131313"
+    android:background="#000000"
     tools:context=".login">
 
     <!-- TODO: Update blank fragment layout -->
@@ -14,13 +14,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welkom bij het Odido Casino!"
+        android:text="Inloggen bij Odido"
         android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -42,9 +44,9 @@
             android:foregroundTint="#FFFDFD"
             android:hint="Gebruikersnaam"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white"
             android:shadowColor="#FAF6F6"
-            android:textColor="#FFFBFB" />
+            android:textColor="#FFFBFB"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -53,10 +55,10 @@
             android:backgroundTint="#FAF8F8"
             android:ems="10"
             android:foregroundTint="#FFFFFF"
-            android:textColorHint="@color/white"
             android:hint="Wachtwoord"
             android:inputType="textPassword"
-            android:textColor="#FBF9F9" />
+            android:textColor="#FBF9F9"
+            android:textColorHint="@color/white" />
 
         <Button
             android:id="@+id/buttonlogin"
@@ -69,20 +71,20 @@
             android:id="@+id/buttonforgotpw"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:text="Wachtwoord vergeten"
+            android:text="Maak Odido Account"
             android:textColor="#FDFAFA" />
 
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="127dp"
-        android:layout_height="111dp"
+        android:layout_width="153dp"
+        android:layout_height="128dp"
         android:src="@drawable/odido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintVertical_bias="0.026" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
