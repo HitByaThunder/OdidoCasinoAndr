@@ -20,7 +20,7 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_login_to_signup"
+            android:id="@+id/lgsi"
             app:destination="@id/signup" />
     </fragment>
     <fragment
