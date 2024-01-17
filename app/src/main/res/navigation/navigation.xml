@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_startup" >
         <action
             android:id="@+id/st_to_login"
-            app:destination="@id/login" />
+            app:destination="@id/login"
+            app:popUpTo="@id/navigation"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/login"
@@ -22,10 +24,20 @@
         <action
             android:id="@+id/lgsi"
             app:destination="@id/signup" />
+        <action
+            android:id="@+id/login_to_spellen"
+            app:destination="@id/spellen"
+            app:popUpTo="@id/navigation"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/signup"
         android:name="nl.odido.odidocasino.signup"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" />
+    <fragment
+        android:id="@+id/spellen"
+        android:name="nl.odido.odidocasino.WachtwoordFragment"
+        android:label="fragment_spellen"
+        tools:layout="@layout/fragment_spellen" />
 </navigation>

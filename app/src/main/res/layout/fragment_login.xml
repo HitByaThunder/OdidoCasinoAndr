@@ -64,13 +64,13 @@
             android:id="@+id/buttonlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="Log in"
             android:textColor="#F6F4F4" />
 
         <Button
             android:id="@+id/buttonmakeacc"
             android:layout_width="match_parent"
-            android:layout_height="68dp"
+            android:layout_height="wrap_content"
             android:text="Maak Odido Account"
             android:textColor="#FDFAFA" />
 
@@ -86,5 +86,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/skiplogin"
+        android:layout_width="182dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="117dp"
+        android:text="SKIP LOGIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

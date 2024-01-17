@@ -41,6 +41,10 @@ class login : Fragment() {
             //Use the navigation tree in the current view to navigate to the next page
             Navigation.findNavController(view).navigate(R.id.lgsi)
         }
+        view.findViewById<Button>(R.id.skiplogin).setOnClickListener {
+            //Use the navigation tree in the current view to navigate to the next page
+            Navigation.findNavController(view).navigate(R.id.login_to_spellen)
+        }
         return view
     }
 
