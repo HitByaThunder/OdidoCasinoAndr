@@ -68,7 +68,7 @@
             android:textColor="#F6F4F4" />
 
         <Button
-            android:id="@+id/buttonforgotpw"
+            android:id="@+id/buttonmakeacc"
             android:layout_width="match_parent"
             android:layout_height="68dp"
             android:text="Maak Odido Account"
