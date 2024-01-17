@@ -15,6 +15,12 @@
             app:destination="@id/login"
             app:popUpTo="@id/navigation"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/startup_ok"
+            app:destination="@id/spellen" />
+        <action
+            android:id="@+id/st_to_nointernet"
+            app:destination="@id/nointernet" />
     </fragment>
     <fragment
         android:id="@+id/login"
@@ -40,4 +46,9 @@
         android:name="nl.odido.odidocasino.WachtwoordFragment"
         android:label="fragment_spellen"
         tools:layout="@layout/fragment_spellen" />
+    <fragment
+        android:id="@+id/nointernet"
+        android:name="nl.odido.odidocasino.nointernet"
+        android:label="fragment_nointernet"
+        tools:layout="@layout/fragment_nointernet" />
 </navigation>
