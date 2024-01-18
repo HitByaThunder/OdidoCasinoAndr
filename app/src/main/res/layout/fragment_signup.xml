@@ -45,21 +45,21 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="463dp"
+        android:layout_width="408dp"
+        android:layout_height="520dp"
         android:layout_marginEnd="2dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638">
+        app:layout_constraintVertical_bias="0.81">
 
         <EditText
             android:id="@+id/email"
             android:layout_width="295dp"
-            android:layout_height="wrap_content"
+            android:layout_height="57dp"
             android:layout_marginStart="50dp"
             android:backgroundTint="#FDFCFC"
             android:drawableTint="#FAF9F9"
@@ -72,7 +72,7 @@
         <EditText
             android:id="@+id/usrname"
             android:layout_width="296dp"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:layout_marginStart="50dp"
             android:backgroundTint="#FBFBFB"
             android:ems="10"
@@ -84,7 +84,7 @@
         <EditText
             android:id="@+id/tel"
             android:layout_width="296dp"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginStart="50dp"
             android:backgroundTint="#FDFDFD"
             android:ems="10"
@@ -93,12 +93,88 @@
             android:textColor="#F8F7F7"
             android:textColorHint="@color/white" />
 
-        <Button
-            android:id="@+id/create_acc"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="296dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:foregroundTint="#FDFDFD"
+            android:hint="Voornaam"
+            android:inputType="text"
+            android:textColor="#FDFCFC"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="297dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:foregroundTint="#FDFDFD"
+            android:hint="Achternaam"
+            android:inputType="text"
+            android:textColor="#FDFCFC"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="296dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:foregroundTint="#FDFDFD"
+            android:hint="Adres"
+            android:inputType="text"
+            android:textColor="#FDFCFC"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/postalcode"
+            android:layout_width="296dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:foregroundTint="#FDFDFD"
+            android:hint="Postcode"
+            android:inputType="text"
+            android:textColor="#FDFCFC"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/birthdate"
+            android:layout_width="297dp"
             android:layout_height="wrap_content"
-            android:text="Maak Account" />
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FBFAFA"
+            android:ems="10"
+            android:hint="Geboortedatum"
+            android:inputType="date"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FDFCFC"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="Wachtwoord"
+            android:textColorHint="@color/white" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/create_acc"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:text="Maak Account"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="77dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
