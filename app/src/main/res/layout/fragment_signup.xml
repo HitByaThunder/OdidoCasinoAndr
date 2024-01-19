@@ -10,28 +10,14 @@
     android:outlineAmbientShadowColor="#FFFEFE"
     tools:context=".signup">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="96dp"
-        android:layout_height="85dp"
-        android:layout_marginEnd="213dp"
-        android:layout_marginBottom="533dp"
-        android:src="@drawable/odido"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="560dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="632dp"
         android:text="Maak een Odido Account"
         android:textColor="#F8F5F5"
         android:textColorHint="@color/white"
@@ -39,14 +25,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="630dp"
+        android:src="@drawable/odido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="520dp"
+        android:layout_width="406dp"
+        android:layout_height="597dp"
         android:layout_marginEnd="2dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -148,7 +147,7 @@
         <EditText
             android:id="@+id/birthdate"
             android:layout_width="297dp"
-            android:layout_height="wrap_content"
+            android:layout_height="61dp"
             android:layout_marginStart="50dp"
             android:backgroundTint="#FBFAFA"
             android:ems="10"
@@ -159,22 +158,22 @@
         <EditText
             android:id="@+id/editTextTextPassword2"
             android:layout_width="298dp"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginStart="50dp"
             android:backgroundTint="#FDFCFC"
             android:ems="10"
+            android:hint="Wachtwoord"
             android:inputType="textPassword"
-            android:text="Wachtwoord"
+            android:textColor="#FDFDFD"
             android:textColorHint="@color/white" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/create_acc"
+            android:layout_width="297dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="50dp"
+            android:text="Maak Account" />
 
-    <Button
-        android:id="@+id/create_acc"
-        android:layout_width="246dp"
-        android:layout_height="52dp"
-        android:text="Maak Account"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="77dp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
