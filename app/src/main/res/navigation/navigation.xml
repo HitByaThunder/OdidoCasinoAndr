@@ -49,6 +49,9 @@
         <action
             android:id="@+id/action_spellen_to_radvanFortuin"
             app:destination="@id/radvanFortuin" />
+        <action
+            android:id="@+id/ply_freespin"
+            app:destination="@id/freespin" />
     </fragment>
     <fragment
         android:id="@+id/nointernet"
@@ -60,4 +63,9 @@
         android:name="nl.odido.odidocasino.RadvanFortuin"
         android:label="fragment_rad_van_fortuin"
         tools:layout="@layout/fragment_rad_van_fortuin" />
+    <fragment
+        android:id="@+id/freespin"
+        android:name="nl.odido.odidocasino.freespin"
+        android:label="fragment_freespin"
+        tools:layout="@layout/fragment_freespin" />
 </navigation>
