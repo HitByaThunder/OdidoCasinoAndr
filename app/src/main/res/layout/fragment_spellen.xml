@@ -114,4 +114,46 @@
 
     </TableLayout>
 
+    <TableLayout
+        android:layout_width="410dp"
+        android:layout_height="226dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="105dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="174dp"
+                android:src="@drawable/meatspin_casino" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/spingratis"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Gratis Spin" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
