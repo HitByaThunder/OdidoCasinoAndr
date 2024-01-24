@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/odido_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/odido" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/casino"
         android:layout_width="60dp"
         android:layout_height="32dp"
         android:layout_marginStart="184dp"

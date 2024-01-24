@@ -45,13 +45,13 @@
             android:layout_height="126dp">
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/roulette_foto"
                 android:layout_width="202dp"
                 android:layout_height="110dp"
                 android:src="@drawable/testcasinospel" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/blackjack_foto"
                 android:layout_width="206dp"
                 android:layout_height="133dp"
                 android:src="@drawable/blackjack_spelvoorcasino" />
@@ -63,13 +63,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/spelen"
+                android:id="@+id/roulette_spelen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SPELEN" />
 
             <Button
-                android:id="@+id/spelen2"
+                android:id="@+id/blackjack_spelen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SPELEN" />
@@ -80,13 +80,13 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView2.1"
+                android:id="@+id/poker_foto"
                 android:layout_width="126dp"
                 android:layout_height="128dp"
                 android:src="@drawable/odidospelpokrr" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/rad_van_fortuin_foto"
                 android:layout_width="192dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/rad_van_fortuin_spelvoorcasino" />
@@ -97,13 +97,13 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/spelen3"
+                android:id="@+id/poker_spelen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SPELEN" />
 
             <Button
-                android:id="@+id/spelen1"
+                android:id="@+id/rad_van_fortuin_spelen"
                 android:layout_width="136dp"
                 android:layout_height="match_parent"
                 android:text="SPELEN" />
@@ -128,7 +128,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/gratis_spin_foto"
                 android:layout_width="wrap_content"
                 android:layout_height="174dp"
                 android:src="@drawable/meatspin_casino" />
@@ -139,7 +139,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/spingratis"
+                android:id="@+id/gratis_spin_knop"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:text="Gratis Spin" />
