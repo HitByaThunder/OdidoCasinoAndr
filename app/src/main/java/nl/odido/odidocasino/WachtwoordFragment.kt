@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 
 class WachtwoordFragment : Fragment() {
 
@@ -27,5 +28,4 @@ class WachtwoordFragment : Fragment() {
         viewModel = ViewModelProvider(this).get(WachtwoordViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
 }
