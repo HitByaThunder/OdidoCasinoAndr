@@ -37,7 +37,7 @@ class login : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_login, container, false)
-        view.findViewById<Button>(R.id.buttonmakeacc).setOnClickListener {
+        view.findViewById<Button>(R.id.button_maak_acc).setOnClickListener {
             //Use the navigation tree in the current view to navigate to the next page
             Navigation.findNavController(view).navigate(R.id.lgsi)
         }
