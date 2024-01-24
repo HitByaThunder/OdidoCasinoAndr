@@ -68,4 +68,19 @@
         android:name="nl.odido.odidocasino.freespin"
         android:label="fragment_freespin"
         tools:layout="@layout/fragment_freespin" />
+    <fragment
+        android:id="@+id/blackjack"
+        android:name="nl.odido.odidocasino.blackjack"
+        android:label="fragment_blackjack"
+        tools:layout="@layout/fragment_blackjack" />
+    <fragment
+        android:id="@+id/poker"
+        android:name="nl.odido.odidocasino.Poker"
+        android:label="fragment_poker"
+        tools:layout="@layout/fragment_poker" />
+    <fragment
+        android:id="@+id/roulette"
+        android:name="nl.odido.odidocasino.roulette"
+        android:label="fragment_roulette"
+        tools:layout="@layout/fragment_roulette" />
 </navigation>
