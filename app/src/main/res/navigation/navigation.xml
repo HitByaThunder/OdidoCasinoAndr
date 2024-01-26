@@ -52,6 +52,9 @@
         <action
             android:id="@+id/ply_freespin"
             app:destination="@id/freespin" />
+        <action
+            android:id="@+id/action_spellen_to_poker"
+            app:destination="@id/poker" />
     </fragment>
     <fragment
         android:id="@+id/nointernet"
