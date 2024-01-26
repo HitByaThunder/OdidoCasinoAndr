@@ -5,8 +5,8 @@
     android:id="@+id/frameLayout6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050505"
-    tools:context=".RadvanFortuin" >
+    android:background="@drawable/rad_van_fortuin_spelvoorcasino"
+    tools:context=".RadvanFortuin">
 
     <Button
         android:id="@+id/speel_rad_van_fortuin"

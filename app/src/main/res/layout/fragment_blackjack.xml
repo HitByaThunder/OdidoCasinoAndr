@@ -5,8 +5,8 @@
     android:id="@+id/frameLayout5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    tools:context=".blackjack" >
+    android:background="@drawable/blackjack_spelvoorcasino"
+    tools:context=".blackjack">
 
     <Button
         android:id="@+id/speel_blackjack"
