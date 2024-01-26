@@ -26,6 +26,6 @@ class WachtwoordFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(WachtwoordViewModel::class.java)
-        // TODO: Use the ViewModel
+        // TODO: Maak buttons work
     }
 }
