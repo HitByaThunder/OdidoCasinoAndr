@@ -8,14 +8,48 @@
     android:background="@drawable/blackjack_spelvoorcasino"
     tools:context=".blackjack">
 
-    <Button
-        android:id="@+id/speel_blackjack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="start spel"
+    <TableLayout
+        android:layout_width="367dp"
+        android:layout_height="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintVertical_bias="0.884">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="113dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/speel_blackjack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start spel" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="278dp"
+            android:layout_height="106dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/prijs_blackjack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prijs: 100 OD"
+                android:textColor="@color/white" />
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
