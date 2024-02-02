@@ -86,4 +86,9 @@
         android:name="nl.odido.odidocasino.roulette"
         android:label="fragment_roulette"
         tools:layout="@layout/fragment_roulette" />
+    <fragment
+        android:id="@+id/instellingen2"
+        android:name="nl.odido.odidocasino.Instellingen"
+        android:label="fragment_instellingen"
+        tools:layout="@layout/fragment_instellingen" />
 </navigation>

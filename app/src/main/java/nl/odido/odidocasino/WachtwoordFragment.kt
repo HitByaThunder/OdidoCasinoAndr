@@ -23,6 +23,7 @@ class WachtwoordFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_spellen, container, false)
     }
 
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(WachtwoordViewModel::class.java)
