@@ -8,13 +8,60 @@
     android:background="@color/black"
     tools:context=".Instellingen">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+    <TableLayout
+        android:layout_width="408dp"
+        android:layout_height="590dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent">
 
+        <TableRow
+            android:id="@+id/Instellingen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Instellingen_tekst"
+                android:layout_width="108dp"
+                android:layout_height="120dp"
+                android:text="Instellingen"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Batterij_besparen"
+            android:layout_width="353dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Batterij_besparen_tekst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batterij bezuinigen"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="199dp"
+                android:layout_height="match_parent" />
+
+            <Switch
+                android:id="@+id/aan_of_uit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,8 +41,8 @@
         app:layout_constraintVertical_bias="1.0">
 
         <TableRow
-            android:layout_width="371dp"
-            android:layout_height="126dp">
+            android:layout_width="320dp"
+            android:layout_height="104dp">
 
             <ImageView
                 android:id="@+id/roulette_foto"
@@ -65,8 +65,8 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="276dp"
+            android:layout_height="27dp">
 
             <Button
                 android:id="@+id/roulette_spelen"
