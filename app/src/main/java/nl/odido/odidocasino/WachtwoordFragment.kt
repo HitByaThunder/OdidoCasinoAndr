@@ -26,6 +26,9 @@ class WachtwoordFragment : Fragment() {
         view.findViewById<Button>(R.id.gratis_spin_knop).setOnClickListener() {
             Navigation.findNavController(view).navigate(R.id.ply_freespin)
         }
+        view.findViewById<Button>(R.id.settingsbttn).setOnClickListener() {
+            Navigation.findNavController(view).navigate(R.id.instelling)
+        }
 
         return view
     }
