@@ -56,8 +56,8 @@
             android:id="@+id/action_spellen_to_poker"
             app:destination="@id/poker" />
         <action
-            android:id="@+id/pokerrgaan"
-            app:destination="@id/poker" />
+            android:id="@+id/action_spellen_to_instellingen3"
+            app:destination="@id/instelling" />
     </fragment>
     <fragment
         android:id="@+id/nointernet"
@@ -90,7 +90,7 @@
         android:label="fragment_roulette"
         tools:layout="@layout/fragment_roulette" />
     <fragment
-        android:id="@+id/instellingen3"
+        android:id="@+id/instelling"
         android:name="nl.odido.odidocasino.Instellingen"
         android:label="fragment_instellingen"
         tools:layout="@layout/fragment_instellingen" />

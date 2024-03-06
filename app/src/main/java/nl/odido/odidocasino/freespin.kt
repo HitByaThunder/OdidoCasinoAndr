@@ -1,10 +1,17 @@
 package nl.odido.odidocasino
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
+import kotlin.random.Random
+import android.graphics.Matrix
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +41,54 @@ class freespin : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_freespin, container, false)
+        val view = inflater.inflate(R.layout.fragment_freespin, container, false)
+
+        view.findViewById<Button>(R.id.draai).setOnClickListener(){
+            val min = 3
+            val max = 6
+
+
+
+
+
+            var matrix: Matrix =  Matrix();
+            var img =  view.findViewById<ImageView>(R.id.wheel)
+
+            var rotate = 0F
+            var sec = Random.nextInt(min, max)
+
+            fun rotateWheel() {
+                val handler = Handler()
+                handler.postDelayed({
+                    rotate += 90F
+                    sec -= 1
+                    if (rotate == 360f) {
+                        rotate = 0F
+                    }
+                    view.findViewById<ImageView>(R.id.wheel).rotation = rotate
+
+                    if (sec > 0) {
+                        rotateWheel() // Schedule the next rotation
+                    }
+                }, 1000)
+            }
+
+// Call the function to start the rotation
+            rotateWheel()
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+        return view
     }
 
     companion object {

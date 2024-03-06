@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.navigation.Navigation
 
 class WachtwoordFragment : Fragment() {
 
@@ -20,13 +21,22 @@ class WachtwoordFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_spellen, container, false)
-    }
+        val view = inflater.inflate(R.layout.fragment_spellen, container, false)
 
+        view.findViewById<Button>(R.id.gratis_spin_knop).setOnClickListener() {
+            Navigation.findNavController(view).navigate(R.id.ply_freespin)
+        }
+        view.findViewById<Button>(R.id.settingsbttn).setOnClickListener() {
+            Navigation.findNavController(view).navigate(R.id.instelling)
+        }
+
+        return view
+    }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(WachtwoordViewModel::class.java)
-        // TODO: Maak buttons work
+        // TODO: Use the ViewModel
     }
+
 }
