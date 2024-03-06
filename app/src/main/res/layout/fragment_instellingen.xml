@@ -84,7 +84,7 @@
                 android:id="@+id/Taal_instelling"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Taal"
+                android:text="Taal van app"
                 android:textColor="@color/white" />
 
         </TableRow>
