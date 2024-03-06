@@ -21,6 +21,9 @@
         <action
             android:id="@+id/st_to_nointernet"
             app:destination="@id/nointernet" />
+        <action
+            android:id="@+id/pokerrgaan"
+            app:destination="@id/poker" />
     </fragment>
     <fragment
         android:id="@+id/login"
