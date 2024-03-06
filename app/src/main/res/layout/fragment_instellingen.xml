@@ -84,13 +84,67 @@
                 android:id="@+id/Taal_instelling"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Taal"
+                android:text="Taal van app"
                 android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/wijzigknop1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wijzig" />
 
         </TableRow>
 
         <TableRow
+            android:id="@+id/Meldingen_optie"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/melding_instelling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meldingen"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Switch
+                android:id="@+id/spam_meldingen_aan_of_uit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Account_instellingen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/account_instel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/wijzigknop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wijzig" />
+        </TableRow>
     </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
