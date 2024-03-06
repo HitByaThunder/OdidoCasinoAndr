@@ -55,6 +55,9 @@
         <action
             android:id="@+id/action_spellen_to_poker"
             app:destination="@id/poker" />
+        <action
+            android:id="@+id/pokerrgaan"
+            app:destination="@id/poker" />
     </fragment>
     <fragment
         android:id="@+id/nointernet"
