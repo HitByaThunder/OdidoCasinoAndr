@@ -23,8 +23,8 @@
 
             <TextView
                 android:id="@+id/Instellingen_tekst"
-                android:layout_width="108dp"
-                android:layout_height="120dp"
+                android:layout_width="184dp"
+                android:layout_height="47dp"
                 android:text="Instellingen"
                 android:textColor="@color/white" />
         </TableRow>
@@ -42,7 +42,7 @@
                 android:textColor="@color/white" />
 
             <Space
-                android:layout_width="199dp"
+                android:layout_width="134dp"
                 android:layout_height="match_parent" />
 
             <Switch
@@ -53,6 +53,7 @@
         </TableRow>
 
         <TableRow
+            android:id="@+id/Mode"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
