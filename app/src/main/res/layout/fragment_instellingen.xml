@@ -87,6 +87,16 @@
                 android:text="Taal van app"
                 android:textColor="@color/white" />
 
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/wijzigknop1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wijzig" />
+
         </TableRow>
 
         <TableRow
@@ -124,6 +134,16 @@
                 android:layout_height="wrap_content"
                 android:text="Account"
                 android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/wijzigknop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wijzig" />
         </TableRow>
     </TableLayout>
 
