@@ -9,8 +9,8 @@
     tools:context=".Instellingen">
 
     <TableLayout
-        android:layout_width="408dp"
-        android:layout_height="590dp"
+        android:layout_width="380dp"
+        android:layout_height="522dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -44,7 +44,7 @@
                 android:textColor="@color/white" />
 
             <Space
-                android:layout_width="134dp"
+                android:layout_width="59dp"
                 android:layout_height="match_parent" />
 
             <Switch
@@ -66,7 +66,7 @@
                 android:textColor="@color/white" />
 
             <Space
-                android:layout_width="126dp"
+                android:layout_width="76dp"
                 android:layout_height="match_parent" />
 
             <Switch
@@ -101,8 +101,8 @@
 
         <TableRow
             android:id="@+id/Meldingen_optie"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="313dp"
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/melding_instelling"
@@ -167,6 +167,29 @@
                 android:layout_height="wrap_content"
                 android:text="ga" />
 
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/log_uit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/log_uit_instelling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log uit"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/uitloggenknop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uitloggen" />
         </TableRow>
     </TableLayout>
 
