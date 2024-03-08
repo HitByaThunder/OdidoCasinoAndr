@@ -35,6 +35,12 @@ class WachtwoordFragment : Fragment() {
         view.findViewById<Button>(R.id.roulette_spelen).setOnClickListener() {
             Navigation.findNavController(view).navigate(R.id.naarRoulette)
         }
+        view.findViewById<Button>(R.id.blackjack_spelen).setOnClickListener() {
+            Navigation.findNavController(view).navigate(R.id.naarBlackjack)
+        }
+        view.findViewById<Button>(R.id.rad_van_fortuin_spelen).setOnClickListener() {
+            Navigation.findNavController(view).navigate(R.id.naarRadVanFortuin)
+        }
         return view
     }
 
