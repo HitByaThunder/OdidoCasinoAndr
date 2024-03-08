@@ -50,13 +50,13 @@
         android:label="fragment_spellen"
         tools:layout="@layout/fragment_spellen" >
         <action
-            android:id="@+id/action_spellen_to_radvanFortuin"
+            android:id="@+id/naarRadVanFortuin"
             app:destination="@id/radvanFortuin" />
         <action
             android:id="@+id/ply_freespin"
             app:destination="@id/freespin" />
         <action
-            android:id="@+id/action_spellen_to_poker"
+            android:id="@+id/naarPoker"
             app:destination="@id/poker" />
         <action
             android:id="@+id/action_spellen_to_instellingen3"
