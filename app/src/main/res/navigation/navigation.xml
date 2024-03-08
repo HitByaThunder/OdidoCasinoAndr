@@ -61,6 +61,9 @@
         <action
             android:id="@+id/action_spellen_to_instellingen3"
             app:destination="@id/instelling" />
+        <action
+            android:id="@+id/naarRoulette"
+            app:destination="@id/roulette" />
     </fragment>
     <fragment
         android:id="@+id/nointernet"
