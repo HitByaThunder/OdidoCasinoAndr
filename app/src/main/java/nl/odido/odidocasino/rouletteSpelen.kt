@@ -36,7 +36,7 @@ class rouletteSpelen : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_roulette_spelen, container, false)
     }
-
+ val Rannum = (0..30).random()
     companion object {
         /**
          * Use this factory method to create a new instance of
